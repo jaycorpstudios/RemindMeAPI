@@ -6,7 +6,7 @@
   "scripts": {
     "run": "node ./index.js",
     "watch": "nodemon ./index.js --ignore public/",
-    "start": "concurrently \"npm run watch\" ",
+    "start": "node .",
     "now": "now -e NODE_ENV=\"production\" -e PORT=80",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,14 +17,13 @@
   "author": "Jaycorpstudios",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "1.17.1",
+    "body-parser": "1.18.3",
     "es6-promisify": "5.0.0",
     "express": "4.15.2",
     "forever": "0.15.3"
   },
   "devDependencies": {
     "concurrently": "3.4.0",
-    "nodemon": "1.11.0",
-    "now": "^6.4.1"
+    "nodemon": "1.11.0"
   }
 }
