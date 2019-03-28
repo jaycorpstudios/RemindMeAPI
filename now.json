@@ -1,5 +1,7 @@
 {
+  "version": 1,
+  "name": "RemindMeAPI",
   "builds": [
-    { "src": "index.js", "use": "@now/node" }
+    { "src": "**/*.js", "use": "@now/node" }
   ]
 }
