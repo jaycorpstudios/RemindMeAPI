@@ -5,4 +5,4 @@ const server = app.listen(app.get('port'), () => {
   console.log(`Express running → PORT ${server.address().port}`);
 });
 
-module.exports = server
+module.exports = server;
