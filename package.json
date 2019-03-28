@@ -1,0 +1,30 @@
+{
+  "name": "remindme-api",
+  "version": "1.0.0",
+  "description": "API for RemindMe Mobile App",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node ./index.js",
+    "watch": "nodemon ./index.js --ignore public/",
+    "start": "concurrently \"npm run watch\" ",
+    "now": "now -e NODE_ENV=\"production\" -e PORT=80",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "Jaycorpstudios",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "es6-promisify": "5.0.0",
+    "express": "4.15.2",
+    "forever": "0.15.3"
+  },
+  "devDependencies": {
+    "concurrently": "3.4.0",
+    "nodemon": "1.11.0",
+    "now": "^6.4.1"
+  }
+}
