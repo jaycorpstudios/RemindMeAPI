@@ -7,7 +7,6 @@
     "run": "node ./index.js",
     "watch": "nodemon ./index.js --ignore public/",
     "start": "node .",
-    "now": "now -e NODE_ENV=\"production\" -e PORT=80",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
